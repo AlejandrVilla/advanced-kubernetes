@@ -7,5 +7,4 @@ spec:
   - port: 8080
     targetPort: 8080
   selector:
-    role: hello-v1
-~                      
+    role: hello-v1 
