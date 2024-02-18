@@ -7,7 +7,9 @@ resources:
   - service-v1.yaml
   - service-v2.yaml
 
-    # images:
-    #  - name: hello-v1
-    #    newtag: gcr.io/google-samples/hello-app:1.0
+    # commonLabels:
+    #  author: kustomize-example
 
+patches:
+  - path: increase_replicas.yaml
+  - path: set_memory.yaml 
