@@ -11,5 +11,5 @@ resources:
     #  author: kustomize-example
 
 patches:
-  - path: increase_replicas.yaml
-  - path: set_memory.yaml 
+  - path: increase_replicas-v1.yaml
+  - path: set_memory-v1.yaml 
